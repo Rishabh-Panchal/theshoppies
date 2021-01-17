@@ -15,7 +15,7 @@ class App extends Component {
 
   //Fetches Array of results from omdb api based on query
   getMoviesList = async (event) => {
-    const url = "http://www.omdbapi.com/?apikey=220c20a&s=";
+    const url = "https://www.omdbapi.com/?apikey=220c20a&s=";
     const value = event.target.value;
     this.setState({searchQuery: value});
 
