@@ -3,6 +3,7 @@ import './App.css';
 import logo from './icons/shopify_glyph.svg';
 import MovieResult from './Components/MovieResult';
 import NominatedMovies from './Components/NominatedMovies';
+import Banner from './Components/Banner';
 
 class App extends Component {
   //All states
@@ -90,7 +91,7 @@ class App extends Component {
             count={this.state.nominatedList.length}/>
           </div>
         </div>
-        
+        <Banner/>
       </div> 
     );
   }
