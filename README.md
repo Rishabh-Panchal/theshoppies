@@ -1,2 +1,2 @@
 # theshoppies.github.io
-Shopify Intern Challenge
+Shopify Front-End Developer Intern Challenge
